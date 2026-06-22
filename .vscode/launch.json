@@ -1,0 +1,68 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug SingletonTest",
+            "request": "launch",
+            "mainClass": "SingletonTest",
+            "console": "integratedTerminal"
+        },
+        {
+            "type": "java",
+            "name": "Debug FactoryMethodTest",
+            "request": "launch",
+            "mainClass": "FactoryMethodTest",
+            "console": "integratedTerminal"
+        },
+        {
+            "type": "java",
+            "name": "Debug BuilderTest",
+            "request": "launch",
+            "mainClass": "BuilderTest",
+            "console": "integratedTerminal"
+        },
+        {
+            "type": "java",
+            "name": "Debug AdapterTest",
+            "request": "launch",
+            "mainClass": "AdapterTest",
+            "console": "integratedTerminal"
+        },
+        {
+            "type": "java",
+            "name": "Debug DecoratorTest",
+            "request": "launch",
+            "mainClass": "DecoratorTest",
+            "console": "integratedTerminal"
+        },
+        {
+            "type": "java",
+            "name": "Debug ProxyTest",
+            "request": "launch",
+            "mainClass": "ProxyTest",
+            "console": "integratedTerminal"
+        },
+        {
+            "type": "java",
+            "name": "Debug ObserverTest",
+            "request": "launch",
+            "mainClass": "ObserverTest",
+            "console": "integratedTerminal"
+        },
+        {
+            "type": "java",
+            "name": "Debug StrategyTest",
+            "request": "launch",
+            "mainClass": "StrategyTest",
+            "console": "integratedTerminal"
+        },
+        {
+            "type": "java",
+            "name": "Debug CommandTest",
+            "request": "launch",
+            "mainClass": "CommandTest",
+            "console": "integratedTerminal"
+        }
+    ]
+}

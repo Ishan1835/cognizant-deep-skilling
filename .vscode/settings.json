@@ -1,0 +1,14 @@
+{
+    "java.project.sourcePaths": [
+        "SingletonPatternExample/src",
+        "FactoryMethodPatternExample/src",
+        "BuilderPatternExample/src",
+        "AdapterPatternExample/src",
+        "DecoratorPatternExample/src",
+        "ProxyPatternExample/src",
+        "ObserverPatternExample/src",
+        "StrategyPatternExample/src",
+        "CommandPatternExample/src"
+    ],
+    "java.project.outputPath": "bin"
+}
