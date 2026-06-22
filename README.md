@@ -1,30 +1,30 @@
 # Cognizant Deep Skilling — Java Design Patterns
 
-Worked exercises from the Cognizant Deep Skilling design patterns module. Each
-folder is a small, standalone Java project demonstrating one Gang-of-Four
-pattern: a couple of source classes plus a runnable test class with a
-`main()` method.
+Worked exercises from the Cognizant Deep Skilling design patterns module.
+[Week1](Week1) holds the week 1 exercises — nine small, standalone Java
+projects, each demonstrating one Gang-of-Four pattern with a couple of
+source classes plus a runnable test class with a `main()` method.
 
-## Exercises
+## Week 1 — Design Patterns
 
 | # | Pattern | Project | Scenario |
 |---|---------|---------|----------|
-| 1 | Singleton | [SingletonPatternExample](SingletonPatternExample) | A single shared `Logger` instance across the app |
-| 2 | Factory Method | [FactoryMethodPatternExample](FactoryMethodPatternExample) | Creating Word/PDF/Excel documents via factories |
-| 3 | Builder | [BuilderPatternExample](BuilderPatternExample) | Assembling `Computer` configurations step by step |
-| 4 | Adapter | [AdapterPatternExample](AdapterPatternExample) | Unifying PayPal/Stripe gateways behind one interface |
-| 5 | Decorator | [DecoratorPatternExample](DecoratorPatternExample) | Stacking Email/SMS/Slack notification channels |
-| 6 | Proxy | [ProxyPatternExample](ProxyPatternExample) | Lazy-loading and caching remote images |
-| 7 | Observer | [ObserverPatternExample](ObserverPatternExample) | Notifying subscribers of stock price changes |
-| 8 | Strategy | [StrategyPatternExample](StrategyPatternExample) | Swapping payment methods at runtime |
-| 9 | Command | [CommandPatternExample](CommandPatternExample) | Issuing on/off commands to home devices |
+| 1 | Singleton | [SingletonPatternExample](Week1/SingletonPatternExample) | A single shared `Logger` instance across the app |
+| 2 | Factory Method | [FactoryMethodPatternExample](Week1/FactoryMethodPatternExample) | Creating Word/PDF/Excel documents via factories |
+| 3 | Builder | [BuilderPatternExample](Week1/BuilderPatternExample) | Assembling `Computer` configurations step by step |
+| 4 | Adapter | [AdapterPatternExample](Week1/AdapterPatternExample) | Unifying PayPal/Stripe gateways behind one interface |
+| 5 | Decorator | [DecoratorPatternExample](Week1/DecoratorPatternExample) | Stacking Email/SMS/Slack notification channels |
+| 6 | Proxy | [ProxyPatternExample](Week1/ProxyPatternExample) | Lazy-loading and caching remote images |
+| 7 | Observer | [ObserverPatternExample](Week1/ObserverPatternExample) | Notifying subscribers of stock price changes |
+| 8 | Strategy | [StrategyPatternExample](Week1/StrategyPatternExample) | Swapping payment methods at runtime |
+| 9 | Command | [CommandPatternExample](Week1/CommandPatternExample) | Issuing on/off commands to home devices |
 
 ## Running an exercise
 
 Each project compiles independently:
 
 ```bash
-cd FactoryMethodPatternExample
+cd Week1/FactoryMethodPatternExample
 javac -d out src/*.java
 java -cp out FactoryMethodTest
 ```

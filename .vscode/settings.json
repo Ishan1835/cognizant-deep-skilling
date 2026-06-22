@@ -1,14 +1,14 @@
 {
     "java.project.sourcePaths": [
-        "SingletonPatternExample/src",
-        "FactoryMethodPatternExample/src",
-        "BuilderPatternExample/src",
-        "AdapterPatternExample/src",
-        "DecoratorPatternExample/src",
-        "ProxyPatternExample/src",
-        "ObserverPatternExample/src",
-        "StrategyPatternExample/src",
-        "CommandPatternExample/src"
+        "Week1/SingletonPatternExample/src",
+        "Week1/FactoryMethodPatternExample/src",
+        "Week1/BuilderPatternExample/src",
+        "Week1/AdapterPatternExample/src",
+        "Week1/DecoratorPatternExample/src",
+        "Week1/ProxyPatternExample/src",
+        "Week1/ObserverPatternExample/src",
+        "Week1/StrategyPatternExample/src",
+        "Week1/CommandPatternExample/src"
     ],
     "java.project.outputPath": "bin"
 }

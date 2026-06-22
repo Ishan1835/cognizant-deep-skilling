@@ -13,7 +13,7 @@ declare -A PROJECTS=(
 )
 for proj in "${!PROJECTS[@]}"; do
   echo "===== $proj ====="
-  javac -d "$proj/out" "$proj"/src/*.java
-  java -cp "$proj/out" "${PROJECTS[$proj]}"
+  javac -d "Week1/$proj/out" "Week1/$proj"/src/*.java
+  java -cp "Week1/$proj/out" "${PROJECTS[$proj]}"
   echo
 done
